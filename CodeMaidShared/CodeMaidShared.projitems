@@ -366,6 +366,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)app.config" />
+    <None Include="$(MSBuildThisFileDirectory)Integration\Images\about.xcf" />
     <None Include="$(MSBuildThisFileDirectory)Properties\Resources.resx">
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -382,5 +383,32 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Properties\Resources.zh-Hans.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\about.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\cleanup.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\cleanupAll.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\closeLocked.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\collapse.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\commentformat.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\find.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\info.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\join.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\lock.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\options.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\progress.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\progressToolWindow.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\progressToolWindow.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\refresh.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\removeRegion.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\reorganize.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\sortAlpha.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\sortNumeric.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\sortType.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\spade.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\spadeToolWindow.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\spadeToolWindow.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\switch.bmp" />
+    <Content Include="$(MSBuildThisFileDirectory)Integration\Images\IDE\unlock.bmp" />
   </ItemGroup>
 </Project>

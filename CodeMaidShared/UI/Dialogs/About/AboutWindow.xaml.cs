@@ -12,12 +12,17 @@ namespace SteveCadwallader.CodeMaid.UI.Dialogs.About
     {
         #region Constructors
 
+
         /// <summary>
         /// Initializes a new instance of the <see cref="AboutWindow" /> class.
         /// </summary>
         public AboutWindow()
         {
+            //  Application.ResourceAssembly = System.Reflection.Assembly.GetEntryAssembly();
+            Application.ResourceAssembly = System.Reflection.Assembly.GetExecutingAssembly();
             InitializeComponent();
+
+
         }
 
         #endregion Constructors
